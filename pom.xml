@@ -467,7 +467,7 @@
                         </configuration>
                     </plugin>
                     <plugin>
-                        <artifactId>maven-javadoc-plugin</artifactId>
+                       <!-- <artifactId>maven-javadoc-plugin</artifactId>
                         <version>2.7</version>
                         <configuration>
                             <source>1.6</source>
@@ -485,7 +485,7 @@
                                 -enumerations -enumconstants
                             </additionalparam>
                         </configuration>
-                    </plugin>
+                    </plugin> -->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-jxr-plugin</artifactId>
