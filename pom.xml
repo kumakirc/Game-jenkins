@@ -22,10 +22,10 @@
     </properties>
 
     <scm>
-        <connection>scm:git:git@github.com:${github.account}/Game-jenkins.git</connection>
+        <!-- <connection>scm:git:git@github.com:${github.account}/Game-jenkins.git</connection>
         <developerConnection>scm:git:git@github.com:${github.account}/Game-jenkins.git</developerConnection>
         <url>scm:git:git@github.com:${github.account}/Game-jenkins.git</url>
-    </scm>
+  -->   </scm>
     <build>
         <plugins>
             <plugin>
