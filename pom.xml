@@ -6,8 +6,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>gameoflife</name>
-    <!-- <url>https://github.com/wakaleo/game-of-life</url>
- -->    <properties>
+    <url>https://github.com/kumakirc/Game-jenkins</url>
+    <properties>
         <build.number>SNAPSHOT</build.number>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <easyb.version>1.4</easyb.version>
@@ -15,17 +15,17 @@
         <!-- A workaround for a bug in PMD -->
         <sourceJdk>1.7</sourceJdk>
         <targetJdk>1.7</targetJdk>
-        <github.account>wakaleo</github.account>
+        <github.account>kumakirc</github.account>
         <thucydides.version>0.9.268</thucydides.version>
-        <jelastic.context>gameoflife</jelastic.context>
-        <jelastic.environment>wakaleo</jelastic.environment>
+        <jelastic.context>Game-jenkins</jelastic.context>
+        <jelastic.environment>kumakirc</jelastic.environment>
     </properties>
 
-    <!-- <scm>
-        <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
-        <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
-        <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
-    </scm> -->
+    <scm>
+        <connection>scm:git:git@github.com:${github.account}/Game-jenkins.git</connection>
+        <developerConnection>scm:git:git@github.com:${github.account}/Game-jenkins.git</developerConnection>
+        <url>scm:git:git@github.com:${github.account}/Game-jenkins.git</url>
+    </scm>
     <build>
         <plugins>
             <plugin>
